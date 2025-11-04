@@ -36,7 +36,7 @@ body {
     color: var(--text-primary);
     background: var(--bg-primary);
     min-height: 100vh;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.6s ease-in-out, color 0.6s ease-in-out;
 }
 
 .container {
@@ -50,6 +50,7 @@ header {
     text-align: center;
     background: var(--bg-secondary);
     position: relative;
+    transition: background-color 0.6s ease-in-out;
 }
 
 .wave {
@@ -77,6 +78,7 @@ h1 {
     color: var(--text-primary);
     letter-spacing: -0.02em;
     line-height: 1.1;
+    transition: color 0.6s ease-in-out;
 }
 
 .title {
@@ -85,6 +87,7 @@ h1 {
     margin-bottom: 1.5rem;
     font-weight: 400;
     letter-spacing: 0;
+    transition: color 0.6s ease-in-out;
 }
 
 .tagline {
@@ -93,6 +96,7 @@ h1 {
     max-width: 700px;
     margin: 0 auto 3rem;
     line-height: 1.7;
+    transition: color 0.6s ease-in-out;
 }
 
 .links {
@@ -136,7 +140,7 @@ h1 {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease, background-color 0.6s ease-in-out, border-color 0.6s ease-in-out;
     z-index: 1000;
 }
 
@@ -150,11 +154,13 @@ h1 {
     width: 24px;
     height: 24px;
     fill: var(--text-primary);
+    transition: fill 0.6s ease-in-out;
 }
 
 main {
     padding: 3rem 2rem;
     background: var(--bg-primary);
+    transition: background-color 0.6s ease-in-out;
 }
 
 .what-i-do-section {
@@ -175,6 +181,7 @@ main {
     letter-spacing: 0.1em;
     position: relative;
     padding-bottom: 0.75rem;
+    transition: color 0.6s ease-in-out;
 }
 
 .what-i-do-content h2::after {
@@ -185,6 +192,7 @@ main {
     width: 50px;
     height: 2px;
     background: var(--accent-color);
+    transition: background-color 0.6s ease-in-out;
 }
 
 .what-i-do-content p {
@@ -192,6 +200,7 @@ main {
     font-size: 1rem;
     line-height: 1.7;
     margin: 0;
+    transition: color 0.6s ease-in-out;
 }
 
 .skills-list {
@@ -207,7 +216,7 @@ main {
     font-size: 0.9rem;
     color: var(--text-primary);
     border: 1px solid var(--card-border);
-    transition: all 0.2s ease;
+    transition: all 0.2s ease, background-color 0.6s ease-in-out, color 0.6s ease-in-out, border-color 0.6s ease-in-out;
     display: flex;
     align-items: center;
     justify-content: center;
