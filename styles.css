@@ -9,8 +9,8 @@
     --bg-secondary: #f5f5f5;
     --text-primary: #1a1a1a;
     --text-secondary: #666;
-    --accent-color: #c17a5f;
-    --accent-hover: #b36b50;
+    --accent-color: #8b5cf6;
+    --accent-hover: #7c3aed;
     --card-bg: #f9f7f5;
     --card-border: #e8e4e0;
     --card-hover-bg: #f5f1ed;
@@ -22,8 +22,8 @@
     --bg-secondary: #1a1a1a;
     --text-primary: #ffffff;
     --text-secondary: #a0a0a0;
-    --accent-color: #c17a5f;
-    --accent-hover: #d08970;
+    --accent-color: #8b5cf6;
+    --accent-hover: #a78bfa;
     --card-bg: #2d2d2d;
     --card-border: #3a3a3a;
     --card-hover-bg: #333333;
@@ -46,7 +46,7 @@ body {
 }
 
 header {
-    padding: 8rem 2rem 6rem;
+    padding: 6rem 2rem 3rem;
     text-align: center;
     background: var(--bg-secondary);
     position: relative;
@@ -153,7 +153,7 @@ h1 {
 }
 
 main {
-    padding: 4rem 2rem;
+    padding: 3rem 2rem;
     background: var(--bg-primary);
 }
 
@@ -201,10 +201,10 @@ main {
 }
 
 .skill-card {
-    padding: 1rem 1.75rem;
+    padding: 0.65rem 1.25rem;
     background: var(--card-bg);
     border-radius: 50px;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: var(--text-primary);
     border: 1px solid var(--card-border);
     transition: all 0.2s ease;
