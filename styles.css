@@ -195,25 +195,26 @@ main {
 }
 
 .skills-list {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 }
 
 .skill-card {
-    padding: 1.25rem 1.5rem;
+    padding: 1rem 1.75rem;
     background: var(--card-bg);
-    border-radius: 8px;
+    border-radius: 50px;
     font-size: 1rem;
     color: var(--text-primary);
     border: 1px solid var(--card-border);
     transition: all 0.2s ease;
+    text-align: center;
 }
 
 .skill-card:hover {
     background: var(--card-hover-bg);
     border-color: var(--card-hover-border);
-    transform: translateX(4px);
+    transform: translateY(-2px);
 }
 
 @media (max-width: 768px) {
@@ -240,5 +241,9 @@ main {
 
     .wave {
         font-size: 2.5rem;
+    }
+
+    .skills-list {
+        grid-template-columns: 1fr;
     }
 }
