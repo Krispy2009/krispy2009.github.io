@@ -1,0 +1,28 @@
+# Kristi Achilleos
+
+> Fractional CTO and engineering leader based in Cyprus, working internationally. I build products, and the teams behind them. Taking on new projects from December 2026.
+
+## About
+
+- Role: Fractional CTO and engineering leader; hands-on founding engineer.
+- Experience: 10+ years across software engineering, engineering management and founding-engineer roles.
+- Highlights: led the engineering team behind a product that reached £1M+ ARR (Unibuddy); split a monolith team into autonomous squads (Playroll); built an AI-powered platform from scratch as a founding engineer.
+- Stack: TypeScript, Node.js, Python, PostgreSQL, React Native / Expo, AWS, AI agents.
+- Location: Cyprus (EET, UTC+2). Remote-first, working with teams across time zones.
+
+## Services
+
+- Fractional CTO (ongoing, part-time): architecture and technology decisions, hiring and team growth, roadmap and trade-offs.
+- 0-to-1 product build (fixed scope): backend, web and mobile, with AI features and agents where they earn their place.
+- Team and delivery review (short engagement): delivery process, incident response, team structure, with a written assessment and prioritised plan.
+
+## Pages
+
+- [Home](https://www.kristi.cy/): overview of what I do.
+- [Work with me](https://www.kristi.cy/work-with-me.html): services, track record, how it works, and how to get in touch. This is the place to find current contact details.
+
+## Optional
+
+- [LinkedIn](https://www.linkedin.com/in/kristiachilleos/): career history.
+- [GitHub](https://github.com/Krispy2009): open source and side projects.
+- [Braille Buddy](https://braille-buddy.krispy2009.workers.dev/): a free web app for learning braille letters in English and Greek (side project).
