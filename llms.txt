@@ -6,7 +6,7 @@
 
 - Role: Fractional CTO and engineering leader; hands-on founding engineer.
 - Experience: 10+ years across software engineering, engineering management and founding-engineer roles.
-- Highlights: led the engineering team behind a product that reached £1M+ ARR (Unibuddy); split a monolith team into autonomous squads (Playroll); built an AI-powered platform from scratch as a founding engineer.
+- Highlights: led the engineering team behind a product that reached £1M+ ARR (Unibuddy); split a monolith team into autonomous squads, with development velocity up 30% and incidents resolved 40% faster (Playroll); built an AI-native platform from scratch as a founding engineer, serving three hotel-group customers and reliably handling 500K-email sends (Familiar).
 - Stack: TypeScript, Node.js, Python, PostgreSQL, React Native / Expo, AWS, AI agents.
 - Location: Cyprus (EET, UTC+2). Remote-first, working with teams across time zones.
 
