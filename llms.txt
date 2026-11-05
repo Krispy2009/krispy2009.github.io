@@ -1,13 +1,14 @@
 # Kristi Achilleos
 
-> Engineering leader and founding engineer based in Cyprus, working internationally. I build products, and the teams behind them. Open to senior and lead engineering roles, engineering leadership roles and contracts from December 2026.
+> Engineering leader and founding engineer based in Cyprus, working internationally. I build products, and the teams behind them. Open to engineering leadership roles, senior and lead engineering roles and contracts from December 2026.
 
 ## About
 
 - Role: engineering leader and hands-on founding engineer.
-- Looking for: senior or lead engineer roles now, engineering leadership (engineering manager towards head of engineering), and contract build engagements.
+- Looking for: engineering leadership (engineering manager, growing towards head of engineering); also open to senior or lead engineer roles and contract build engagements.
+- Drivers: helping developers grow into the best version of themselves and be happy at work.
 - Experience: 10+ years across software engineering, engineering management and founding-engineer roles.
-- Highlights: led the engineering team behind a product that reached £1M+ ARR (Unibuddy); split a monolith team into autonomous squads, with development velocity up 30% and incidents resolved 40% faster (Playroll); built an AI-native platform from scratch as a founding engineer (Familiar).
+- Highlights: led the engineering team behind a product that reached £1M+ ARR (Unibuddy); split a monolith team into autonomous squads, with development velocity up 30% and incidents resolved 40% faster and 0% regrettable attrition (Playroll); built an AI-native platform from scratch as a founding engineer (Familiar).
 - Stack: TypeScript, Node.js, Python, PostgreSQL, React Native / Expo, AWS, AI agents.
 - Location: Cyprus (EET, UTC+2). Remote-first, working with teams across time zones.
 
