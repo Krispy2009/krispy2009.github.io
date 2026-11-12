@@ -21,4 +21,4 @@
 
 - [LinkedIn](https://www.linkedin.com/in/kristiachilleos/): career history.
 - [GitHub](https://github.com/Krispy2009): open source and side projects.
-- [Braille Buddy](https://braille-buddy.krispy2009.workers.dev/): a free web app for learning braille letters in English and Greek (side project).
+- [Braille Buddy](https://braille-buddy.krispytech.workers.dev/): a free web app for learning braille letters in English and Greek (side project).
