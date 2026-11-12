@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /designs/
+Disallow: /mockups/
+
+Sitemap: https://www.kristi.cy/sitemap.txt

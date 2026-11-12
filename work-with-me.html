@@ -9,7 +9,21 @@
     <meta property="og:title" content="Work with me | Kristi Achilleos">
     <meta property="og:description" content="Engineering leader and founding engineer. I build products, and the teams behind them.">
     <meta property="og:url" content="https://www.kristi.cy/work-with-me.html">
+    <link rel="canonical" href="https://www.kristi.cy/work-with-me.html">
     <link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt">
+    <script>
+        (function () {
+            var t;
+            try { t = localStorage.getItem('theme'); } catch (e) {}
+            if (t !== 'light' && t !== 'dark') {
+                t = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            }
+            document.documentElement.setAttribute('data-theme', t);
+        })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Caveat:wght@500;700&display=swap">
     <link rel="stylesheet" href="styles.css">
     <script type="application/ld+json">
 {
@@ -35,6 +49,7 @@
     "0-to-1 product development",
     "AI agents",
     "AI-native products",
+    "Accessibility",
     "Node.js",
     "PostgreSQL",
     "React Native"
@@ -43,40 +58,42 @@
     </script>
     <script data-goatcounter="https://kristicy.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+    <script src="site.js" defer></script>
 </head>
 <body>
-    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
-        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85l1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z"/>
-        </svg>
-        <svg class="moon-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M10 7a7 7 0 0 0 12 4.9v.1c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2h.1A6.979 6.979 0 0 0 10 7zm-6 5a8 8 0 0 0 15.062 3.762A9 9 0 0 1 8.238 4.938 7.999 7.999 0 0 0 4 12z"/>
-        </svg>
-    </button>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    <div class="container">
-        <header class="page-header">
-            <a class="back-link" href="/">&larr; Home</a>
-            <div class="availability"><span class="availability-dot" aria-hidden="true"></span>Open to new roles and contracts from December 2026</div>
-            <h1>Work with me</h1>
-            <div class="title">Engineering Leader &amp; Founding Engineer</div>
-            <div class="tagline">
-                I build products, and the teams behind them. I'm looking for my next engineering
-                leadership role, and I'm open to senior or lead engineering roles too. What drives me is
-                helping developers grow into the best version of themselves and be happy at work.
+    <div class="wrap">
+        <nav class="site-nav" aria-label="Main">
+            <a class="brand" href="/">&larr; kristi.cy</a>
+            <div class="nav-links">
+                <a class="hide-sm" href="https://www.linkedin.com/in/kristiachilleos/" target="_blank" rel="noopener">LinkedIn</a>
+                <a class="hide-sm" href="https://github.com/Krispy2009" target="_blank" rel="noopener">GitHub</a>
+                <a class="btn" href="mailto:kristi.achilleos+website@gmail.com?subject=Hello there!">Email me</a>
+                <button class="toggle" id="theme-toggle" type="button" aria-label="Switch between light and chalkboard mode"><span class="to-dark" aria-hidden="true">🌙</span><span class="to-light" aria-hidden="true">☀️</span></button>
             </div>
-            <div class="links">
-                <a href="mailto:kristi.achilleos+website@gmail.com?subject=Hello there!" class="link-button">Email me</a>
-                <a href="https://www.linkedin.com/in/kristiachilleos/" target="_blank" rel="noopener" class="link-button secondary">LinkedIn</a>
+        </nav>
+
+        <header class="hero">
+            <span class="wave" role="img" aria-label="Waving hand">👋</span>
+            <h1>Work <span class="mark">with me.</span></h1>
+            <p class="believer">I build products, and the teams behind them. I'm looking for my next engineering leadership role, and I'm open to <strong>senior or lead engineering roles</strong> too.</p>
+            <p class="lede">What drives me is helping developers grow into the best version of themselves and be happy at work.</p>
+            <div class="actions">
+                <a class="cta" href="mailto:kristi.achilleos+website@gmail.com?subject=Hello there!">Email me</a>
+                <a class="cta outline" href="https://www.linkedin.com/in/kristiachilleos/" target="_blank" rel="noopener">LinkedIn</a>
             </div>
+            <p class="scribble hand">open to new roles and contracts from Dec 2026!
+                <svg width="60" height="40" viewBox="0 0 60 40" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M50 4 C 40 20, 25 28, 8 32"/><path d="M8 32 L 18 24 M8 32 L 19 36"/></svg>
+            </p>
         </header>
 
-        <main>
-            <section class="page-section" aria-labelledby="help-heading">
-                <h2 class="section-label" id="help-heading">What I'm looking for</h2>
-                <div class="offers">
-                    <article class="offer-card">
-                        <div class="offer-kind">Full-time</div>
+        <main id="main">
+            <section aria-labelledby="looking-heading">
+                <h2 id="looking-heading">What I'm looking for</h2>
+                <div class="notes three">
+                    <article class="note">
+                        <span class="hand">full-time</span>
                         <h3>Engineering leadership</h3>
                         <p>Leading engineers and the way they ship, from engineering manager towards head of engineering.</p>
                         <ul>
@@ -85,8 +102,8 @@
                             <li>Technical roadmap, explained in business terms</li>
                         </ul>
                     </article>
-                    <article class="offer-card">
-                        <div class="offer-kind">Full-time</div>
+                    <article class="note">
+                        <span class="hand">full-time</span>
                         <h3>Senior / Lead engineer</h3>
                         <p>Hands-on engineering on products that matter, with a say in how the team works.</p>
                         <ul>
@@ -95,8 +112,8 @@
                             <li>0-to-1 and early-stage teams</li>
                         </ul>
                     </article>
-                    <article class="offer-card">
-                        <div class="offer-kind">Contract</div>
+                    <article class="note">
+                        <span class="hand">contract</span>
                         <h3>Build engagements / Contract work</h3>
                         <p>Fixed-scope or ongoing work: a product, a feature or a team that needs senior hands.</p>
                         <ul>
@@ -108,97 +125,62 @@
                 </div>
             </section>
 
-            <section class="page-section" aria-labelledby="record-heading">
-                <h2 class="section-label" id="record-heading">Track record</h2>
-                <div class="proof">
-                    <div class="proof-item">
-                        <div class="proof-figure">£1M+ ARR</div>
-                        <p>Led the engineering team behind a product that reached £1M+ ARR, at Unibuddy.</p>
-                    </div>
-                    <div class="proof-item">
-                        <div class="proof-figure">Organisation leadership</div>
-                        <p>Split a single large team into autonomous squads and introduced a new SDLC at Playroll: development velocity up 30%, cycle time down 25%, incidents resolved 40% faster, with 0% regrettable attrition.</p>
-                    </div>
-                    <div class="proof-item">
-                        <div class="proof-figure">Zero to platform</div>
-                        <p>Built an AI-native platform from scratch as a founding engineer at Familiar</p>
-                    </div>
+            <section aria-labelledby="record-heading">
+                <h2 id="record-heading">With great teams <span class="aside">(the highlights!)</span></h2>
+                <div class="stats">
+                    <div class="stat"><div class="num">£1M+</div><p>Led the engineering team behind a product that reached £1M+ ARR.</p><span class="company">Unibuddy</span></div>
+                    <div class="stat"><div class="num">+30%</div><p>Development velocity after splitting one large team into autonomous squads with a new SDLC. Cycle time down 25%, incidents resolved 40% faster, 0% regrettable attrition.</p><span class="company">Playroll</span></div>
+                    <div class="stat"><div class="num">0 → 1</div><p>An AI-native platform built from scratch as a founding engineer.</p><span class="company">Familiar</span></div>
                 </div>
-                <p class="section-note">
-                    10+ years across engineering, management and founding roles. Based in Cyprus, working
-                    internationally with remote teams across time zones.
-                </p>
+                <p class="section-note">10+ years across engineering, management and founding roles. Based in Cyprus, working internationally with remote teams across time zones.</p>
             </section>
 
-            <section class="page-section" aria-labelledby="stack-heading">
-                <h2 class="section-label" id="stack-heading">Hands-on with</h2>
+            <section aria-labelledby="stack-heading">
+                <h2 id="stack-heading">Hands-on with</h2>
                 <ul class="chips">
-                    <li class="skill-card">AI agents</li>
-                    <li class="skill-card">TypeScript</li>
-                    <li class="skill-card">Node.js</li>
-                    <li class="skill-card">Python</li>
-                    <li class="skill-card">PostgreSQL</li>
-                    <li class="skill-card">React Native / Expo</li>
-                    <li class="skill-card">AWS</li>
+                    <li>AI agents</li>
+                    <li>TypeScript</li>
+                    <li>Node.js</li>
+                    <li>Python</li>
+                    <li>PostgreSQL</li>
+                    <li>React Native / Expo</li>
+                    <li>AWS</li>
                 </ul>
             </section>
 
-            <section class="page-section" aria-labelledby="how-heading">
-                <h2 class="section-label" id="how-heading">Working together</h2>
+            <section aria-labelledby="how-heading">
+                <h2 id="how-heading">Working together</h2>
                 <ol class="steps">
                     <li>
-                        <h3> 📨 Say hello</h3>
+                        <h3>📨 Say hello</h3>
                         <p>Send me an email about the role or project.</p>
                     </li>
                     <li>
-                        <h3> 👩‍💻 We talk it through</h3>
+                        <h3>👩‍💻 We talk it through</h3>
                         <p>A short call to see if it's a fit.</p>
                     </li>
                     <li>
-                        <h3> 🚀 We get going</h3>
+                        <h3>🚀 We get going</h3>
                         <p>Available from December 2026.</p>
                     </li>
                 </ol>
             </section>
-
-            <section class="page-section cta" aria-labelledby="cta-heading">
-                <h2 id="cta-heading">Hiring, or know someone who is?</h2>
-                <p>Tell me about the role or project. I reply to every message.</p>
-                <div class="links">
-                    <a href="mailto:kristi.achilleos+website@gmail.com?subject=Hello there!" class="link-button">Email me</a>
-                </div>
-            </section>
         </main>
 
         <footer class="site-footer">
-            <a href="/">Home</a>
-            <a href="https://www.linkedin.com/in/kristiachilleos/" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="https://github.com/Krispy2009" target="_blank" rel="noopener">GitHub</a>
+            <h2>Hiring, or know someone who is?</h2>
+            <p class="sub">Tell me about the role or project. I reply to every message.</p>
+            <a class="cta" href="mailto:kristi.achilleos+website@gmail.com?subject=Hello there!">Email me</a>
+            <div class="links">
+                <a href="/">Home</a>
+                <a href="https://www.linkedin.com/in/kristiachilleos/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/Krispy2009" target="_blank" rel="noopener">GitHub</a>
+            </div>
+            <div class="signature" tabindex="0" aria-label="Signed Kristi, in braille">
+                <span class="braille" id="braille" aria-hidden="true"></span>
+                <span class="hand" aria-hidden="true">that's "kristi" in braille ✨</span>
+            </div>
         </footer>
     </div>
-
-    <script>
-        // Theme toggle (same behaviour as the home page)
-        const themeToggle = document.getElementById('theme-toggle');
-        const sunIcon = document.querySelector('.sun-icon');
-        const moonIcon = document.querySelector('.moon-icon');
-        const html = document.documentElement;
-
-        let savedTheme = 'light';
-        try { savedTheme = localStorage.getItem('theme') || 'light'; } catch (e) {}
-
-        function applyTheme(theme) {
-            html.setAttribute('data-theme', theme);
-            sunIcon.style.display = theme === 'dark' ? 'block' : 'none';
-            moonIcon.style.display = theme === 'dark' ? 'none' : 'block';
-        }
-        applyTheme(savedTheme);
-
-        themeToggle.addEventListener('click', () => {
-            const next = html.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
-            applyTheme(next);
-            try { localStorage.setItem('theme', next); } catch (e) {}
-        });
-    </script>
 </body>
 </html>

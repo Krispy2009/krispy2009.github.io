@@ -3,13 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kristi Achilleos</title>
-    <meta name="description" content="Engineering leader and founding engineer. I build high-performing teams and scalable products for the AI era.">
+    <title>Kristi Achilleos | Engineering Leader</title>
+    <meta name="description" content="Engineering leader and founding engineer based in Cyprus. I build products, and the teams behind them. Open to engineering leadership roles from December 2026.">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Kristi Achilleos">
     <meta property="og:description" content="Engineering leader and founding engineer. I build products, and the teams behind them.">
     <meta property="og:url" content="https://www.kristi.cy/">
+    <link rel="canonical" href="https://www.kristi.cy/">
     <link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt">
+    <script>
+        (function () {
+            var t;
+            try { t = localStorage.getItem('theme'); } catch (e) {}
+            if (t !== 'light' && t !== 'dark') {
+                t = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            }
+            document.documentElement.setAttribute('data-theme', t);
+        })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Caveat:wght@500;700&display=swap">
     <link rel="stylesheet" href="styles.css">
     <script type="application/ld+json">
 {
@@ -34,6 +48,7 @@
     "0-to-1 product development",
     "AI agents",
     "AI-native products",
+    "Accessibility",
     "Node.js",
     "PostgreSQL",
     "React Native"
@@ -42,114 +57,79 @@
     </script>
     <script data-goatcounter="https://kristicy.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+    <script src="site.js" defer></script>
 </head>
 <body>
-    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
-        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85l1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z"/>
-        </svg>
-        <svg class="moon-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M10 7a7 7 0 0 0 12 4.9v.1c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2h.1A6.979 6.979 0 0 0 10 7zm-6 5a8 8 0 0 0 15.062 3.762A9 9 0 0 1 8.238 4.938 7.999 7.999 0 0 0 4 12z"/>
-        </svg>
-    </button>
-    <div class="container">
-        <header>
-            <div class="wave">👋</div>
-            <h1>Hi, I'm Kristi</h1>
-            <div class="title">Engineering Leader & Product Builder</div>
-            <div class="tagline">
-                I build high-performing teams and scalable products for the AI era. Passionate about helping
-                engineers grow into their best selves and shipping products that make an impact.
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="wrap">
+        <nav class="site-nav" aria-label="Main">
+            <a class="brand" href="/">kristi.cy</a>
+            <div class="nav-links">
+                <a class="hide-sm" href="https://www.linkedin.com/in/kristiachilleos/" target="_blank" rel="noopener">LinkedIn</a>
+                <a class="hide-sm" href="https://github.com/Krispy2009" target="_blank" rel="noopener">GitHub</a>
+                <a class="btn" href="work-with-me.html">Work with me</a>
+                <button class="toggle" id="theme-toggle" type="button" aria-label="Switch between light and chalkboard mode"><span class="to-dark" aria-hidden="true">🌙</span><span class="to-light" aria-hidden="true">☀️</span></button>
             </div>
-            <div class="links">
-                <a href="work-with-me.html" class="link-button">Work with me</a>
-                <a href="https://www.linkedin.com/in/kristiachilleos/" target="_blank" class="link-button secondary">
-                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/>
-                    </svg>
-                    Connect on LinkedIn
-                </a>
-            </div>
+        </nav>
+
+        <header class="hero">
+            <span class="wave" role="img" aria-label="Waving hand">👋</span>
+            <h1>Hi, I'm Kristi! I build products, and <span class="mark">the teams behind them.</span></h1>
+            <p class="believer">Engineering leader, hands-on founding engineer, and <strong>a big believer that happy engineers build the best things.</strong></p>
+            <p class="scribble hand">open to new roles from Dec 2026!
+                <svg width="60" height="40" viewBox="0 0 60 40" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M50 4 C 40 20, 25 28, 8 32"/><path d="M8 32 L 18 24 M8 32 L 19 36"/></svg>
+            </p>
         </header>
 
-        <main>
-            <section class="what-i-do-section">
-                <div class="what-i-do-content">
-                    <h2>What I Do</h2>
-                    <p>
-                        I've gone from developer to engineering manager to founding engineer, with 10+ years in tech. I led the engineering team behind a £1M+ ARR product, split a monolith team into autonomous squads, and most recently built an AI-native platform from scratch, with AI agents at its core. I'm looking for my next engineering leadership role (and I'm open to senior or lead roles too), from December 2026. What drives me is helping developers grow into the best version of themselves and be happy at work.
-                    </p>
-                </div>
-                <div class="skills-list">
-                    <div class="skill-card">Building Engineering Teams</div>
-                    <div class="skill-card">Engineering Culture</div>
-                    <div class="skill-card">Mentoring &amp; Coaching</div>
-                    <div class="skill-card">Engineering Leadership</div>
-                    <div class="skill-card">AI-native Products</div>
-                    <div class="skill-card">AI Agents</div>
-                    <div class="skill-card">0-to-1 Product Development</div>
-                    <div class="skill-card">Hands-on Engineering</div>
+        <main id="main">
+            <section class="notes" aria-label="About me">
+                <div class="note"><span class="hand">🌊 home</span><p>Nicosia, Cyprus. Working remotely with teams all over.</p></div>
+                <div class="note"><span class="hand">💜 what drives me</span><p>Helping developers grow into the best version of themselves.</p></div>
+                <div class="note"><span class="hand">♿ always</span><p>Accessibility from day one, not as an afterthought.</p></div>
+                <div class="note"><span class="hand">🏃‍♀️ off the clock</span><p>Running.</p>
+                    <svg class="route" width="150" height="34" viewBox="0 0 150 34" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="1 7" aria-hidden="true"><path d="M4 26 C 24 4, 40 32, 62 16 S 98 4, 112 20 S 136 28, 144 10"/><circle cx="144" cy="10" r="4" fill="currentColor" stroke="none"/></svg>
                 </div>
             </section>
 
-            <section class="side-projects-section">
-                <h2 class="section-label">On the side</h2>
-                <div class="side-projects">
-                    <a class="project-card" href="https://littleagenda.app" target="_blank" rel="noopener">
-                        <img class="project-thumb" src="images/littleagenda.png" alt="Little Agenda home page: Children's activities, at your fingertips" width="720" height="450" loading="lazy">
-                        <div class="project-body">
-                            <h3>Little Agenda</h3>
-                            <p>An app to discover kids' activities in London.</p>
-                        </div>
+            <section aria-labelledby="teams-heading">
+                <h2 id="teams-heading">With great teams <span class="aside">(the highlights!)</span></h2>
+                <div class="stats">
+                    <div class="stat"><div class="num">£1M+</div><p>Led the engineering team behind a product that reached £1M+ ARR.</p><span class="company">Unibuddy</span></div>
+                    <div class="stat"><div class="num">+30%</div><p>Velocity after splitting a monolith team into squads, with zero regrettable attrition.</p><span class="company">Playroll</span></div>
+                    <div class="stat"><div class="num">0 → 1</div><p>An AI-native platform built from scratch, with AI agents at its core.</p><span class="company">Familiar</span></div>
+                </div>
+            </section>
+
+            <section aria-labelledby="side-heading">
+                <h2 id="side-heading">Side projects</h2>
+                <div class="projects">
+                    <a class="polaroid" href="https://littleagenda.app" target="_blank" rel="noopener">
+                        <img src="images/littleagenda.png" alt="Little Agenda home page: Children's activities, at your fingertips" width="1200" height="630" loading="lazy">
+                        <h3>Little Agenda</h3>
+                        <p>An app to discover kids' activities in London.</p>
                     </a>
-                    <a class="project-card" href="https://braille-buddy.krispytech.workers.dev/" target="_blank" rel="noopener">
-                        <img class="project-thumb" src="images/braille-buddy.png" alt="Braille Buddy home page: Feel the page, with a flashcard for the letter a" width="720" height="450" loading="lazy">
-                        <div class="project-body">
-                            <h3>Braille Buddy</h3>
-                            <p>An interactive game for learning the braille alphabet.</p>
-                        </div>
+                    <a class="polaroid" href="https://braille-buddy.krispytech.workers.dev/" target="_blank" rel="noopener">
+                        <img src="images/braille-buddy.png" alt="Braille Buddy home page: Feel the page, with a flashcard for the letter a" width="1200" height="630" loading="lazy">
+                        <h3>Braille Buddy</h3>
+                        <p>An interactive game for learning the braille alphabet.</p>
                     </a>
                 </div>
             </section>
         </main>
+
+        <footer class="site-footer">
+            <h2>Building a team? Let's chat! 💬</h2>
+            <a class="cta" href="work-with-me.html">Work with me</a>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/kristiachilleos/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/Krispy2009" target="_blank" rel="noopener">GitHub</a>
+            </div>
+            <div class="signature" tabindex="0" aria-label="Signed Kristi, in braille">
+                <span class="braille" id="braille" aria-hidden="true"></span>
+                <span class="hand" aria-hidden="true">that's "kristi" in braille ✨</span>
+            </div>
+        </footer>
     </div>
-    <script>
-        // Theme toggle functionality
-        const themeToggle = document.getElementById('theme-toggle');
-        const sunIcon = document.querySelector('.sun-icon');
-        const moonIcon = document.querySelector('.moon-icon');
-        const html = document.documentElement;
-
-        // Check for saved theme preference or default to 'light'
-        const currentTheme = localStorage.getItem('theme') || 'light';
-        html.setAttribute('data-theme', currentTheme);
-
-        // Update icon visibility based on current theme
-        if (currentTheme === 'dark') {
-            sunIcon.style.display = 'block';
-            moonIcon.style.display = 'none';
-        } else {
-            sunIcon.style.display = 'none';
-            moonIcon.style.display = 'block';
-        }
-
-        // Toggle theme on button click
-        themeToggle.addEventListener('click', () => {
-            const theme = html.getAttribute('data-theme');
-            const newTheme = theme === 'light' ? 'dark' : 'light';
-
-            html.setAttribute('data-theme', newTheme);
-            localStorage.setItem('theme', newTheme);
-
-            // Toggle icon visibility
-            if (newTheme === 'dark') {
-                sunIcon.style.display = 'block';
-                moonIcon.style.display = 'none';
-            } else {
-                sunIcon.style.display = 'none';
-                moonIcon.style.display = 'block';
-            }
-        });
-    </script>
 </body>
 </html>
