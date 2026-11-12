@@ -8,7 +8,7 @@
 - Looking for: engineering leadership (engineering manager, growing towards head of engineering); also open to senior or lead engineer roles and contract build engagements.
 - Drivers: helping developers grow into the best version of themselves and be happy at work.
 - Experience: 10+ years across software engineering, engineering management and founding-engineer roles.
-- Highlights: led the engineering team behind a product that reached £1M+ ARR (Unibuddy); split a monolith team into autonomous squads, with development velocity up 30% and incidents resolved 40% faster and 0% regrettable attrition (Playroll); built an AI-native platform from scratch as a founding engineer (Familiar).
+- Highlights: led the engineering team behind a product that reached £1M+ ARR (Unibuddy); split a monolith team into autonomous squads, with development velocity up 30% and incidents resolved 40% faster and 0% regrettable attrition (Playroll); built an AI-native platform from scratch as a founding engineer, with AI agents at its core (Familiar).
 - Stack: TypeScript, Node.js, Python, PostgreSQL, React Native / Expo, AWS, AI agents.
 - Location: Cyprus (EET, UTC+2). Remote-first, working with teams across time zones.
 
