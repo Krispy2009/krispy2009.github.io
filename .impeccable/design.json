@@ -1,0 +1,552 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-21T17:17:40+00:00",
+  "title": "Design System: kristi.cy",
+  "extensions": {
+    "colorMeta": {
+      "ink-violet": {
+        "role": "primary",
+        "displayName": "Ink Violet",
+        "canonical": "#7444dd",
+        "tonalRamp": [
+          "oklch(15% 0.030 292)",
+          "oklch(26% 0.082 292)",
+          "oklch(38% 0.139 292)",
+          "oklch(49% 0.196 292)",
+          "oklch(61% 0.196 292)",
+          "oklch(72% 0.139 292)",
+          "oklch(84% 0.082 292)",
+          "oklch(95% 0.030 292)"
+        ]
+      },
+      "margin-blue": {
+        "role": "secondary",
+        "displayName": "Margin Blue",
+        "canonical": "#2f7fc4",
+        "tonalRamp": [
+          "oklch(15% 0.020 248)",
+          "oklch(26% 0.054 248)",
+          "oklch(38% 0.091 248)",
+          "oklch(49% 0.129 248)",
+          "oklch(61% 0.129 248)",
+          "oklch(72% 0.091 248)",
+          "oklch(84% 0.054 248)",
+          "oklch(95% 0.020 248)"
+        ]
+      },
+      "ledger-green": {
+        "role": "tertiary",
+        "displayName": "Ledger Green",
+        "canonical": "#2c9467",
+        "tonalRamp": [
+          "oklch(15% 0.018 160)",
+          "oklch(26% 0.048 160)",
+          "oklch(38% 0.082 160)",
+          "oklch(49% 0.115 160)",
+          "oklch(61% 0.115 160)",
+          "oklch(72% 0.082 160)",
+          "oklch(84% 0.048 160)",
+          "oklch(95% 0.018 160)"
+        ]
+      },
+      "highlighter-lilac": {
+        "role": "neutral",
+        "displayName": "Highlighter Lilac",
+        "canonical": "#e6dcff",
+        "tonalRamp": [
+          "oklch(15% 0.007 298)",
+          "oklch(26% 0.020 298)",
+          "oklch(38% 0.034 298)",
+          "oklch(49% 0.047 298)",
+          "oklch(61% 0.047 298)",
+          "oklch(72% 0.034 298)",
+          "oklch(84% 0.020 298)",
+          "oklch(95% 0.007 298)"
+        ]
+      },
+      "dot-paper": {
+        "role": "neutral",
+        "displayName": "Dot Paper",
+        "canonical": "#fbfbfd",
+        "tonalRamp": [
+          "oklch(15% 0.000 286)",
+          "oklch(26% 0.001 286)",
+          "oklch(38% 0.002 286)",
+          "oklch(49% 0.003 286)",
+          "oklch(61% 0.003 286)",
+          "oklch(72% 0.002 286)",
+          "oklch(84% 0.001 286)",
+          "oklch(95% 0.000 286)"
+        ]
+      },
+      "paper-dots": {
+        "role": "neutral",
+        "displayName": "Paper Dots",
+        "canonical": "#e7eaf2",
+        "tonalRamp": [
+          "oklch(15% 0.002 270)",
+          "oklch(26% 0.005 270)",
+          "oklch(38% 0.008 270)",
+          "oklch(49% 0.011 270)",
+          "oklch(61% 0.011 270)",
+          "oklch(72% 0.008 270)",
+          "oklch(84% 0.005 270)",
+          "oklch(95% 0.002 270)"
+        ]
+      },
+      "card-white": {
+        "role": "neutral",
+        "displayName": "Card White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.000 90)",
+          "oklch(26% 0.000 90)",
+          "oklch(38% 0.000 90)",
+          "oklch(49% 0.000 90)",
+          "oklch(61% 0.000 90)",
+          "oklch(72% 0.000 90)",
+          "oklch(84% 0.000 90)",
+          "oklch(95% 0.000 90)"
+        ]
+      },
+      "night-ink": {
+        "role": "neutral",
+        "displayName": "Night Ink",
+        "canonical": "#1d1f33",
+        "tonalRamp": [
+          "oklch(15% 0.006 279)",
+          "oklch(26% 0.016 279)",
+          "oklch(38% 0.026 279)",
+          "oklch(49% 0.037 279)",
+          "oklch(61% 0.037 279)",
+          "oklch(72% 0.026 279)",
+          "oklch(84% 0.016 279)",
+          "oklch(95% 0.006 279)"
+        ]
+      },
+      "pencil-grey": {
+        "role": "neutral",
+        "displayName": "Pencil Grey",
+        "canonical": "#545a72",
+        "tonalRamp": [
+          "oklch(15% 0.006 274)",
+          "oklch(26% 0.016 274)",
+          "oklch(38% 0.028 274)",
+          "oklch(49% 0.039 274)",
+          "oklch(61% 0.039 274)",
+          "oklch(72% 0.028 274)",
+          "oklch(84% 0.016 274)",
+          "oklch(95% 0.006 274)"
+        ]
+      },
+      "running-orange": {
+        "role": "tertiary",
+        "displayName": "Running Orange",
+        "canonical": "#c0632d",
+        "tonalRamp": [
+          "oklch(15% 0.020 48)",
+          "oklch(26% 0.056 48)",
+          "oklch(38% 0.095 48)",
+          "oklch(49% 0.134 48)",
+          "oklch(61% 0.134 48)",
+          "oklch(72% 0.095 48)",
+          "oklch(84% 0.056 48)",
+          "oklch(95% 0.020 48)"
+        ]
+      },
+      "note-blue": {
+        "role": "neutral",
+        "displayName": "Note Blue",
+        "canonical": "#dcecfb",
+        "tonalRamp": [
+          "oklch(15% 0.004 246)",
+          "oklch(26% 0.011 246)",
+          "oklch(38% 0.019 246)",
+          "oklch(49% 0.026 246)",
+          "oklch(61% 0.026 246)",
+          "oklch(72% 0.019 246)",
+          "oklch(84% 0.011 246)",
+          "oklch(95% 0.004 246)"
+        ]
+      },
+      "note-lilac": {
+        "role": "neutral",
+        "displayName": "Note Lilac",
+        "canonical": "#ece4ff",
+        "tonalRamp": [
+          "oklch(15% 0.006 299)",
+          "oklch(26% 0.015 299)",
+          "oklch(38% 0.026 299)",
+          "oklch(49% 0.036 299)",
+          "oklch(61% 0.036 299)",
+          "oklch(72% 0.026 299)",
+          "oklch(84% 0.015 299)",
+          "oklch(95% 0.006 299)"
+        ]
+      },
+      "note-green": {
+        "role": "neutral",
+        "displayName": "Note Green",
+        "canonical": "#ddf3e6",
+        "tonalRamp": [
+          "oklch(15% 0.004 160)",
+          "oklch(26% 0.012 160)",
+          "oklch(38% 0.020 160)",
+          "oklch(49% 0.028 160)",
+          "oklch(61% 0.028 160)",
+          "oklch(72% 0.020 160)",
+          "oklch(84% 0.012 160)",
+          "oklch(95% 0.004 160)"
+        ]
+      },
+      "note-yellow": {
+        "role": "neutral",
+        "displayName": "Note Yellow",
+        "canonical": "#fff1c2",
+        "tonalRamp": [
+          "oklch(15% 0.009 93)",
+          "oklch(26% 0.026 93)",
+          "oklch(38% 0.043 93)",
+          "oklch(49% 0.061 93)",
+          "oklch(61% 0.061 93)",
+          "oklch(72% 0.043 93)",
+          "oklch(84% 0.026 93)",
+          "oklch(95% 0.009 93)"
+        ]
+      },
+      "chalkboard": {
+        "role": "neutral",
+        "displayName": "Chalkboard",
+        "canonical": "#253029",
+        "tonalRamp": [
+          "oklch(15% 0.003 157)",
+          "oklch(26% 0.008 157)",
+          "oklch(38% 0.014 157)",
+          "oklch(49% 0.019 157)",
+          "oklch(61% 0.019 157)",
+          "oklch(72% 0.014 157)",
+          "oklch(84% 0.008 157)",
+          "oklch(95% 0.003 157)"
+        ]
+      },
+      "chalk-white": {
+        "role": "neutral",
+        "displayName": "Chalk White",
+        "canonical": "#eef2ea",
+        "tonalRamp": [
+          "oklch(15% 0.002 129)",
+          "oklch(26% 0.005 129)",
+          "oklch(38% 0.008 129)",
+          "oklch(49% 0.011 129)",
+          "oklch(61% 0.011 129)",
+          "oklch(72% 0.008 129)",
+          "oklch(84% 0.005 129)",
+          "oklch(95% 0.002 129)"
+        ]
+      },
+      "chalk-dust": {
+        "role": "neutral",
+        "displayName": "Chalk Dust",
+        "canonical": "#b9c4ba",
+        "tonalRamp": [
+          "oklch(15% 0.003 148)",
+          "oklch(26% 0.008 148)",
+          "oklch(38% 0.013 148)",
+          "oklch(49% 0.018 148)",
+          "oklch(61% 0.018 148)",
+          "oklch(72% 0.013 148)",
+          "oklch(84% 0.008 148)",
+          "oklch(95% 0.003 148)"
+        ]
+      },
+      "chalk-violet": {
+        "role": "primary",
+        "displayName": "Chalk Violet",
+        "canonical": "#c9b6ff",
+        "tonalRamp": [
+          "oklch(15% 0.015 296)",
+          "oklch(26% 0.042 296)",
+          "oklch(38% 0.072 296)",
+          "oklch(49% 0.101 296)",
+          "oklch(61% 0.101 296)",
+          "oklch(72% 0.072 296)",
+          "oklch(84% 0.042 296)",
+          "oklch(95% 0.015 296)"
+        ]
+      },
+      "chalk-blue": {
+        "role": "secondary",
+        "displayName": "Chalk Blue",
+        "canonical": "#a3d0f7",
+        "tonalRamp": [
+          "oklch(15% 0.011 245)",
+          "oklch(26% 0.030 245)",
+          "oklch(38% 0.050 245)",
+          "oklch(49% 0.071 245)",
+          "oklch(61% 0.071 245)",
+          "oklch(72% 0.050 245)",
+          "oklch(84% 0.030 245)",
+          "oklch(95% 0.011 245)"
+        ]
+      },
+      "chalk-green": {
+        "role": "tertiary",
+        "displayName": "Chalk Green",
+        "canonical": "#a6e5c3",
+        "tonalRamp": [
+          "oklch(15% 0.012 161)",
+          "oklch(26% 0.033 161)",
+          "oklch(38% 0.055 161)",
+          "oklch(49% 0.078 161)",
+          "oklch(61% 0.078 161)",
+          "oklch(72% 0.055 161)",
+          "oklch(84% 0.033 161)",
+          "oklch(95% 0.012 161)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "One h1 per page, with a highlighter mark on the closing phrase."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section h2s, optionally followed by a Caveat aside."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Hero paragraph under the h1; strong phrase in Ink Violet."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Note, card, step and polaroid h3s."
+      },
+      "stat": {
+        "displayName": "Stat",
+        "purpose": "Headline numbers on stat cards."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base paragraph text."
+      },
+      "body-sm": {
+        "displayName": "Body Sm",
+        "purpose": "Text inside notes and cards."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Company names under stats."
+      },
+      "hand-label": {
+        "displayName": "Hand Label",
+        "purpose": "Sticky-note headers and h2 asides."
+      },
+      "hand-scribble": {
+        "displayName": "Hand Scribble",
+        "purpose": "The margin scribble (one per page)."
+      },
+      "hand-numeral": {
+        "displayName": "Hand Numeral",
+        "purpose": "Numbered step numerals."
+      }
+    },
+    "shadows": [
+      {
+        "name": "sticky-note",
+        "value": "0 6px 16px rgb(30 30 60 / 0.1)",
+        "purpose": "Resting lift for sticky notes."
+      },
+      {
+        "name": "tape",
+        "value": "0 1px 2px rgb(0 0 0 / 0.08)",
+        "purpose": "Translucent tape strip on top of each note."
+      },
+      {
+        "name": "polaroid",
+        "value": "0 10px 28px rgb(0 0 0 / 0.14)",
+        "purpose": "Heavier lift for photo prints."
+      },
+      {
+        "name": "chalk-glow",
+        "value": "0 0 1px rgb(255 255 255 / 0.45), 0 0 8px rgb(255 255 255 / 0.08)",
+        "purpose": "Text-shadow on headings and Caveat in the chalkboard theme only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "wave",
+        "value": "2.5s ease-in-out 0.3s, once",
+        "purpose": "One-time hand wave on the hero emoji."
+      },
+      {
+        "name": "straighten",
+        "value": "transform 0.2s",
+        "purpose": "Polaroid straightens and grows 2% on hover."
+      },
+      {
+        "name": "theme-fade",
+        "value": "background-color 0.3s, color 0.3s",
+        "purpose": "Paper-to-chalkboard theme swap."
+      },
+      {
+        "name": "reveal",
+        "value": "opacity 0.2s",
+        "purpose": "Braille signature caption fade-in."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none; transition: none",
+        "purpose": "All motion stops under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "560px"
+      },
+      {
+        "name": "md",
+        "value": "860px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Nav Button",
+      "kind": "button",
+      "refersTo": "button-nav",
+      "description": "Single solid action in the top-right of the nav.",
+      "html": "<a class=\"ds-btn-nav\" href=\"#\">Work with me</a>",
+      "css": ".ds-btn-nav{display:inline-block;background:var(--btn,#1d1f33);color:var(--btn-ink,#fff);padding:.5rem 1.1rem;border-radius:.6rem;text-decoration:none;font:700 1.125rem/1.6 'Atkinson Hyperlegible',system-ui,sans-serif;white-space:nowrap}.ds-btn-nav:hover{text-decoration:underline;text-underline-offset:4px}.ds-btn-nav:focus-visible{outline:3px solid var(--violet, #7444dd);outline-offset:3px}"
+    },
+    {
+      "name": "Primary CTA",
+      "kind": "button",
+      "refersTo": "button-cta",
+      "description": "Ink Violet pill for the page's one main action.",
+      "html": "<a class=\"ds-cta\" href=\"#\">Email me</a>",
+      "css": ".ds-cta{display:inline-block;background:var(--cta,#7444dd);color:var(--cta-ink,#fff);padding:.8rem 1.6rem;border-radius:999px;text-decoration:none;font:700 1.125rem/1.6 'Atkinson Hyperlegible',system-ui,sans-serif}.ds-cta:hover{filter:brightness(1.08)}.ds-cta:focus-visible{outline:3px solid var(--violet, #7444dd);outline-offset:3px}"
+    },
+    {
+      "name": "Outline CTA",
+      "kind": "button",
+      "refersTo": "button-cta-outline",
+      "description": "Secondary pill beside a primary CTA.",
+      "html": "<a class=\"ds-cta-outline\" href=\"#\">LinkedIn</a>",
+      "css": ".ds-cta-outline{display:inline-block;background:transparent;color:var(--ink,#1d1f33);border:2px solid var(--card-line,#1d1f33);padding:calc(.8rem - 2px) calc(1.6rem - 2px);border-radius:999px;text-decoration:none;font:700 1.125rem/1.6 'Atkinson Hyperlegible',system-ui,sans-serif}.ds-cta-outline:hover{background:var(--mark,#e6dcff)}.ds-cta-outline:focus-visible{outline:3px solid var(--violet, #7444dd);outline-offset:3px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "button-nav",
+      "description": "Caveat wordmark, text links, nav button and theme toggle.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-brand\" href=\"#\">kristi.cy</a><div class=\"ds-nav-links\"><a href=\"#\">LinkedIn</a><a href=\"#\">GitHub</a><a class=\"ds-nav-btn\" href=\"#\">Work with me</a><button class=\"ds-toggle\" type=\"button\" aria-label=\"Switch between light and chalkboard mode\">🌙</button></div></nav>",
+      "css": ".ds-nav{display:flex;justify-content:space-between;align-items:center;padding:1.5rem 0;font:400 1.125rem/1.6 'Atkinson Hyperlegible',system-ui,sans-serif;color:var(--ink,#1d1f33)}.ds-brand{font:700 1.75rem 'Caveat',cursive;color:var(--violet,#7444dd);text-decoration:none}.ds-nav-links{display:flex;align-items:center;gap:1.5rem}.ds-nav-links a{color:inherit;text-decoration:none}.ds-nav-links a:not(.ds-nav-btn):hover{text-decoration:underline;text-underline-offset:4px}.ds-nav-btn{background:var(--btn,#1d1f33);color:var(--btn-ink,#fff)!important;padding:.5rem 1.1rem;border-radius:.6rem;font-weight:700}.ds-toggle{background:none;border:2px solid var(--ink,#1d1f33);width:2.4rem;height:2.4rem;border-radius:50%;cursor:pointer;font-size:1.1rem;line-height:1}.ds-nav a:focus-visible,.ds-toggle:focus-visible{outline:3px solid var(--violet, #7444dd);outline-offset:3px}"
+    },
+    {
+      "name": "Sticky Note",
+      "kind": "card",
+      "refersTo": "sticky-note",
+      "description": "Paper object: pastel note with tape, soft shadow and a gentle tilt.",
+      "html": "<div class=\"ds-note\"><span class=\"ds-note-hand\">♿ always</span><p>Accessibility from day one, not as an afterthought.</p></div>",
+      "css": ".ds-note{position:relative;max-width:14rem;background:var(--note-green,#ddf3e6);color:#1d1f33;padding:1.25rem 1.25rem 1.5rem;border-radius:.25rem;box-shadow:0 6px 16px rgb(30 30 60/.1);transform:rotate(-.8deg);font:400 1rem/1.6 'Atkinson Hyperlegible',system-ui,sans-serif;margin-top:.8rem}.ds-note::before{content:'';position:absolute;top:-.6rem;left:50%;width:4rem;height:1.2rem;margin-left:-2rem;background:rgb(255 255 255/.6);box-shadow:0 1px 2px rgb(0 0 0/.08);transform:rotate(-3deg)}.ds-note-hand{display:block;font:700 1.5rem/1.1 'Caveat',cursive;margin-bottom:.4rem}"
+    },
+    {
+      "name": "Stat Card",
+      "kind": "card",
+      "refersTo": "stat-card",
+      "description": "Ink object: outlined card with a headline number and company label.",
+      "html": "<div class=\"ds-stat\"><div class=\"ds-stat-num\">+30%</div><p>Development velocity after splitting one large team into autonomous squads.</p><span class=\"ds-stat-co\">Playroll</span></div>",
+      "css": ".ds-stat{max-width:18rem;background:var(--card,#fff);color:var(--ink,#1d1f33);border:2px solid var(--card-line,#1d1f33);border-radius:1rem;padding:1.5rem;font:400 1rem/1.6 'Atkinson Hyperlegible',system-ui,sans-serif}.ds-stat-num{font-size:2.25rem;font-weight:700;line-height:1;color:var(--violet,#7444dd)}.ds-stat p{margin:.5rem 0 0}.ds-stat-co{display:block;margin-top:.75rem;font-size:.875rem;letter-spacing:.04em;color:var(--soft,#545a72)}"
+    },
+    {
+      "name": "Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Static outlined pill for skills.",
+      "html": "<ul class=\"ds-chips\"><li>TypeScript</li><li>Node.js</li><li>AI agents</li></ul>",
+      "css": ".ds-chips{list-style:none;display:flex;flex-wrap:wrap;gap:.6rem;padding:0;margin:0}.ds-chips li{padding:.4rem 1rem;border:2px solid var(--card-line,#1d1f33);border-radius:999px;background:var(--card,#fff);color:var(--ink,#1d1f33);font:400 1rem/1.6 'Atkinson Hyperlegible',system-ui,sans-serif}"
+    },
+    {
+      "name": "Polaroid",
+      "kind": "card",
+      "refersTo": "polaroid",
+      "description": "Paper object: side-project link card that straightens on hover.",
+      "html": "<a class=\"ds-polaroid\" href=\"#\"><div class=\"ds-polaroid-img\"></div><h3>Braille Buddy</h3><p>An interactive game for learning the braille alphabet.</p></a>",
+      "css": ".ds-polaroid{display:block;max-width:20rem;text-decoration:none;color:#1d1f33;background:#fff;padding:.8rem .8rem 1.1rem;box-shadow:0 10px 28px rgb(0 0 0/.14);transform:rotate(-1.5deg);transition:transform .2s;font:400 1rem/1.6 'Atkinson Hyperlegible',system-ui,sans-serif}.ds-polaroid:hover{transform:rotate(0) scale(1.02)}.ds-polaroid:focus-visible{outline:3px solid var(--violet, #7444dd);outline-offset:3px}.ds-polaroid-img{aspect-ratio:1200/630;background:linear-gradient(#ece4ff,#dcecfb)}.ds-polaroid h3{font-size:1.25rem;margin:.75rem 0 0}.ds-polaroid p{margin:0;color:#545a72}"
+    },
+    {
+      "name": "Braille Signature",
+      "kind": "custom",
+      "description": "Signature footer element: 'kristi' in braille with a handwritten reveal.",
+      "html": "<div class=\"ds-sig\" tabindex=\"0\" aria-label=\"Signed Kristi, in braille\"><span class=\"ds-braille\" aria-hidden=\"true\"><span class=\"ds-cell\"><span class=\"on\"></span><span></span><span class=\"on\"></span><span></span><span></span><span></span></span><span class=\"ds-cell\"><span class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span></span><span class=\"on\"></span><span></span></span><span class=\"ds-cell\"><span></span><span class=\"on\"></span><span></span><span class=\"on\"></span><span></span><span></span></span><span class=\"ds-cell\"><span></span><span class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span></span><span></span></span><span class=\"ds-cell\"><span></span><span class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span></span></span><span class=\"ds-cell\"><span></span><span class=\"on\"></span><span></span><span class=\"on\"></span><span></span><span></span></span></span><span class=\"ds-sig-hand\" aria-hidden=\"true\">that's \"kristi\" in braille ✨</span></div>",
+      "css": ".ds-sig{display:inline-flex;flex-direction:column;align-items:center;gap:.4rem;color:var(--soft,#545a72);cursor:help}.ds-sig:focus-visible{outline:3px solid var(--violet, #7444dd);outline-offset:3px}.ds-braille{display:inline-flex;gap:.55rem}.ds-cell{display:grid;grid-template-rows:repeat(3,.4rem);grid-auto-flow:column;grid-auto-columns:.4rem;gap:.2rem}.ds-cell span{border-radius:50%;border:1px solid currentColor;opacity:.25}.ds-cell span.on{background:var(--violet,#7444dd);border-color:var(--violet,#7444dd);opacity:1}.ds-sig-hand{font:400 1.25rem 'Caveat',cursive;opacity:0;transition:opacity .2s}.ds-sig:hover .ds-sig-hand,.ds-sig:focus .ds-sig-hand{opacity:1}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Desk Scrapbook",
+    "overview": "By day the site is a desk: dotted notebook paper with things pinned and taped to it. There are pastel sticky notes held on with translucent tape, polaroids of side projects, bold-outlined index cards with numbers on them, and blue pencil scribbles in the margin pointing at what matters. By night the same desk becomes a chalkboard. The paper turns dark green, the ink turns to chalk with a faint glow, and the cards become chalk outlines with slightly uneven corners. The objects and layout stay the same. Only the material changes.\n\nThe backbone is clean and legible. Atkinson Hyperlegible carries every heading, paragraph and number, set large and comfortable. Caveat handwriting, tilted paper and doodles are layered on top as seasoning: labels, asides, one scribble per view. The voice is warm and playful because of what is said and the handwritten touches around it, never at the cost of readability. Page density is low: a single centred column (max 62rem), generous section spacing, and few elements per row.\n\nThe system deliberately rejects corporate or SaaS polish: no gradient heroes, glassmorphism, stock \"tech\" illustration or generic dark-mode dashboards. It also uses no personal photography. The person comes through in voice, handwriting and objects, not a headshot.",
+    "keyCharacteristics": [
+      "Dotted notebook paper (light) and a smudged chalkboard (dark) as the ground.",
+      "Paper objects (sticky notes, polaroids) are tilted between about -1.5° and 1.6°, and they cast real shadows.",
+      "Ink objects (stat cards, chips, outline buttons) are flat with 2px outlines.",
+      "Atkinson Hyperlegible for everything that must be read, and Caveat only for short handwritten accents.",
+      "One violet \"ink\" accent, with margin blue and ledger green as supporting pencil colours.",
+      "A braille signature in the footer: accessibility shown as a visible detail, not just stated."
+    ],
+    "rules": [
+      {
+        "name": "The One Pen Rule",
+        "body": "Ink Violet is the only colour that means \"this matters\" or \"act here\". Blue and green are decoration or data. They are never used for CTAs or links.",
+        "section": "colors"
+      },
+      {
+        "name": "The Sticky Notes Stay Paper Rule",
+        "body": "Sticky notes keep their pastel fill and Night Ink text in the chalkboard theme. They are real paper stuck on a board, and they are never inverted.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ink-to-Chalk Rule",
+        "body": "Every colour token has a chalk counterpart. A new colour needs both a light-paper value and a chalk value before it ships.",
+        "section": "colors"
+      },
+      {
+        "name": "The Seasoning Rule",
+        "body": "Caveat never sets a sentence the visitor must read to understand the page. Handwriting is capped at about six words per instance, and at most one free-floating scribble per viewport. Everything essential is set in Atkinson.",
+        "section": "typography"
+      },
+      {
+        "name": "The No-Small-Hand Rule",
+        "body": "Caveat is never smaller than 1.25rem. Below that size, handwriting stops being legible.",
+        "section": "typography"
+      },
+      {
+        "name": "The Paper-or-Ink Rule",
+        "body": "Every new element is either paper (it gets a shadow and may tilt) or ink (it gets an outline and stays straight). Never both, never neither.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Gentle Tilt Rule",
+        "body": "Tilts stay within ±2° for objects and ±4° for scribbles. Adjacent objects tilt in alternating directions. Hover straightens the object (rotate 0, scale 1.02) and never adds more tilt.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** decide whether every new element is paper (shadow, slight tilt) or ink (2px outline, straight). See the Paper-or-Ink Rule.",
+      "**Do** give every new colour a chalkboard counterpart, and check both themes.",
+      "**Do** keep Ink Violet as the only action colour. Violet pills are reserved for the page's one main action (the footer on Home; the hero and footer on Work with me).",
+      "**Do** set all essential reading in Atkinson Hyperlegible at 1rem or larger, with body text at 1.125rem and line height 1.6.",
+      "**Do** keep the global 3px Ink Violet focus ring, the skip link and reduced-motion handling. When reduced motion is requested, all animation and transitions stop.",
+      "**Do** close every page with the braille signature."
+    ],
+    "donts": [
+      "**Don't** add corporate or SaaS polish: gradient heroes, glassmorphism, stock \"tech\" illustration or generic dark dashboards.",
+      "**Don't** use a headshot or personal photography. Imagery is limited to product screenshots inside polaroids.",
+      "**Don't** set paragraphs, CTAs or essential facts in Caveat, or set Caveat below 1.25rem.",
+      "**Don't** tilt ink objects, or tilt anything more than ±2° (±4° for scribbles).",
+      "**Don't** invert sticky notes in the chalkboard theme. They stay pastel paper with Night Ink text.",
+      "**Don't** add motion beyond the one-time wave, the polaroid hover straighten, and the 0.2–0.3s colour and opacity fades."
+    ]
+  }
+}
