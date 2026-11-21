@@ -66,18 +66,18 @@
         <nav class="site-nav" aria-label="Main">
             <a class="brand" href="/">kristi.cy</a>
             <div class="nav-links">
-                <a class="hide-sm" href="https://www.linkedin.com/in/kristiachilleos/" target="_blank" rel="noopener">LinkedIn</a>
-                <a class="hide-sm" href="https://github.com/Krispy2009" target="_blank" rel="noopener">GitHub</a>
+                <a class="hide-sm" href="https://www.linkedin.com/in/kristiachilleos/" target="_blank" rel="noopener">LinkedIn<span class="vh"> (opens in a new tab)</span></a>
+                <a class="hide-sm" href="https://github.com/Krispy2009" target="_blank" rel="noopener">GitHub<span class="vh"> (opens in a new tab)</span></a>
                 <a class="btn" href="work-with-me.html">Work with me</a>
                 <button class="toggle" id="theme-toggle" type="button" aria-label="Switch between light and chalkboard mode"><span class="to-dark" aria-hidden="true">🌙</span><span class="to-light" aria-hidden="true">☀️</span></button>
             </div>
         </nav>
 
         <header class="hero">
-            <span class="wave" role="img" aria-label="Waving hand">👋</span>
+            <span class="wave" aria-hidden="true">👋</span>
             <h1>Hi, I'm Kristi! I build products, and <span class="mark">the teams behind them.</span></h1>
             <p class="believer">From first idea to shipped product, hands-on all the way. I lead cross-functional product teams, and <strong>I'm a big believer that happy engineers build the best things.</strong></p>
-            <p class="scribble hand">open to new roles from Dec 2026!
+            <p class="scribble hand">open to new roles &amp; contracts from Dec 2026!
                 <svg width="60" height="40" viewBox="0 0 60 40" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M50 4 C 40 20, 25 28, 8 32"/><path d="M8 32 L 18 24 M8 32 L 19 36"/></svg>
             </p>
         </header>
@@ -95,9 +95,26 @@
             <section aria-labelledby="teams-heading">
                 <h2 id="teams-heading">With great teams <span class="aside">(the highlights!)</span></h2>
                 <div class="stats">
-                    <div class="stat"><div class="num">£1M+</div><p>Led the engineering team behind a product that reached £1M+ ARR.</p><span class="company">Unibuddy</span></div>
-                    <div class="stat"><div class="num">+30%</div><p>Development velocity after splitting one large team into autonomous squads with a new SDLC. Cycle time down 25%, incidents resolved 40% faster, 0% regrettable attrition.</p><span class="company">Playroll</span></div>
-                    <div class="stat"><div class="num">0 → 1</div><p>An AI-native platform built from scratch as a founding engineer, with AI agents at its core.</p><span class="company">Familiar</span></div>
+                    <article class="stat">
+                        <h3 class="company">Unibuddy</h3>
+                        <p class="num">£1M+</p>
+                        <p>Led the engineering team behind a product that reached £1M+ ARR.</p>
+                    </article>
+                    <article class="stat">
+                        <h3 class="company">Playroll</h3>
+                        <p class="num">+30%</p>
+                        <p>Development velocity after splitting one large team into autonomous squads with a new delivery process.</p>
+                        <ul>
+                            <li>Cycle time down 25%</li>
+                            <li>Incidents resolved 40% faster</li>
+                            <li>0% regrettable attrition</li>
+                        </ul>
+                    </article>
+                    <article class="stat">
+                        <h3 class="company">Familiar</h3>
+                        <p class="num"><span aria-hidden="true">0 → 1</span><span class="vh">Zero to one</span></p>
+                        <p>An AI-native platform built from scratch as a founding engineer, with AI agents at its core.</p>
+                    </article>
                 </div>
             </section>
 
@@ -108,12 +125,12 @@
                         <img src="images/littleagenda.png" alt="Little Agenda home page: Children's activities, at your fingertips" width="1200" height="630" loading="lazy">
                         <h3>Little Agenda</h3>
                         <p>An app to discover kids' activities in London.</p>
-                    </a>
+                    <span class="vh"> (opens in a new tab)</span></a>
                     <a class="polaroid" href="https://braille-buddy.krispytech.workers.dev/" target="_blank" rel="noopener">
                         <img src="images/braille-buddy.png" alt="Braille Buddy home page: Feel the page, with a flashcard for the letter a" width="1200" height="630" loading="lazy">
                         <h3>Braille Buddy</h3>
                         <p>An interactive game for learning the braille alphabet.</p>
-                    </a>
+                    <span class="vh"> (opens in a new tab)</span></a>
                 </div>
             </section>
         </main>
@@ -122,10 +139,10 @@
             <h2>Building a product, or the team behind it? Let's chat! 💬</h2>
             <a class="cta" href="work-with-me.html">Work with me</a>
             <div class="links">
-                <a href="https://www.linkedin.com/in/kristiachilleos/" target="_blank" rel="noopener">LinkedIn</a>
-                <a href="https://github.com/Krispy2009" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://www.linkedin.com/in/kristiachilleos/" target="_blank" rel="noopener">LinkedIn<span class="vh"> (opens in a new tab)</span></a>
+                <a href="https://github.com/Krispy2009" target="_blank" rel="noopener">GitHub<span class="vh"> (opens in a new tab)</span></a>
             </div>
-            <div class="signature" tabindex="0" aria-label="Signed Kristi, in braille">
+            <div class="signature" role="img" aria-label="Signed Kristi, in braille">
                 <span class="braille" id="braille" aria-hidden="true"></span>
                 <span class="hand" aria-hidden="true">that's "kristi" in braille ✨</span>
             </div>
