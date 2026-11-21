@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-21T17:17:40+00:00",
+  "generatedAt": "2026-11-21T19:08:36+00:00",
   "title": "Design System: kristi.cy",
   "extensions": {
     "colorMeta": {
@@ -336,7 +336,7 @@
       },
       "label": {
         "displayName": "Label",
-        "purpose": "Company names under stats."
+        "purpose": "Index-card company headers."
       },
       "hand-label": {
         "displayName": "Hand Label",
@@ -453,12 +453,12 @@
       "css": ".ds-note{position:relative;max-width:14rem;background:var(--note-green,#ddf3e6);color:#1d1f33;padding:1.25rem 1.25rem 1.5rem;border-radius:.25rem;box-shadow:0 6px 16px rgb(30 30 60/.1);transform:rotate(-.8deg);font:400 1rem/1.6 'Atkinson Hyperlegible',system-ui,sans-serif;margin-top:.8rem}.ds-note::before{content:'';position:absolute;top:-.6rem;left:50%;width:4rem;height:1.2rem;margin-left:-2rem;background:rgb(255 255 255/.6);box-shadow:0 1px 2px rgb(0 0 0/.08);transform:rotate(-3deg)}.ds-note-hand{display:block;font:700 1.5rem/1.1 'Caveat',cursive;margin-bottom:.4rem}"
     },
     {
-      "name": "Stat Card",
+      "name": "Index Card",
       "kind": "card",
       "refersTo": "stat-card",
-      "description": "Ink object: outlined card with a headline number and company label.",
-      "html": "<div class=\"ds-stat\"><div class=\"ds-stat-num\">+30%</div><p>Development velocity after splitting one large team into autonomous squads.</p><span class=\"ds-stat-co\">Playroll</span></div>",
-      "css": ".ds-stat{max-width:18rem;background:var(--card,#fff);color:var(--ink,#1d1f33);border:2px solid var(--card-line,#1d1f33);border-radius:1rem;padding:1.5rem;font:400 1rem/1.6 'Atkinson Hyperlegible',system-ui,sans-serif}.ds-stat-num{font-size:2.25rem;font-weight:700;line-height:1;color:var(--violet,#7444dd)}.ds-stat p{margin:.5rem 0 0}.ds-stat-co{display:block;margin-top:.75rem;font-size:.875rem;letter-spacing:.04em;color:var(--soft,#545a72)}"
+      "description": "Ink object: company on a ruled header line, one headline number, optional secondary metrics.",
+      "html": "<article class=\"ds-stat\"><h3 class=\"ds-stat-co\">Playroll</h3><p class=\"ds-stat-num\">+30%</p><p>Development velocity after splitting one large team into autonomous squads.</p><ul><li>Cycle time down 25%</li><li>0% regrettable attrition</li></ul></article>",
+      "css": ".ds-stat{--accent:var(--violet,#7444dd);max-width:18rem;background:var(--card,#fff);color:var(--ink,#1d1f33);border:2px solid var(--card-line,#1d1f33);border-radius:1rem;padding:1.1rem 1.5rem 1.5rem;font:400 1rem/1.6 'Atkinson Hyperlegible',system-ui,sans-serif}.ds-stat-co{font-size:1rem;line-height:1.3;letter-spacing:.04em;margin:0 0 1rem;padding-bottom:.6rem;border-bottom:2px solid var(--accent)}.ds-stat-num{margin:0;font-size:2.25rem;font-weight:700;line-height:1;color:var(--accent)}.ds-stat p:not(.ds-stat-num){margin:.5rem 0 0}.ds-stat ul{list-style:none;margin:.75rem 0 0;padding:.75rem 0 0;border-top:2px dashed var(--rule,rgb(29 31 51/.18))}.ds-stat li{position:relative;padding-left:1.1rem;font-size:.9375rem;font-weight:700;margin-bottom:.3rem}.ds-stat li::before{content:'';position:absolute;left:0;top:.55em;width:.4rem;height:.4rem;border-radius:50%;background:var(--accent)}"
     },
     {
       "name": "Chip",
@@ -480,8 +480,8 @@
       "name": "Braille Signature",
       "kind": "custom",
       "description": "Signature footer element: 'kristi' in braille with a handwritten reveal.",
-      "html": "<div class=\"ds-sig\" tabindex=\"0\" aria-label=\"Signed Kristi, in braille\"><span class=\"ds-braille\" aria-hidden=\"true\"><span class=\"ds-cell\"><span class=\"on\"></span><span></span><span class=\"on\"></span><span></span><span></span><span></span></span><span class=\"ds-cell\"><span class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span></span><span class=\"on\"></span><span></span></span><span class=\"ds-cell\"><span></span><span class=\"on\"></span><span></span><span class=\"on\"></span><span></span><span></span></span><span class=\"ds-cell\"><span></span><span class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span></span><span></span></span><span class=\"ds-cell\"><span></span><span class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span></span></span><span class=\"ds-cell\"><span></span><span class=\"on\"></span><span></span><span class=\"on\"></span><span></span><span></span></span></span><span class=\"ds-sig-hand\" aria-hidden=\"true\">that's \"kristi\" in braille ✨</span></div>",
-      "css": ".ds-sig{display:inline-flex;flex-direction:column;align-items:center;gap:.4rem;color:var(--soft,#545a72);cursor:help}.ds-sig:focus-visible{outline:3px solid var(--violet, #7444dd);outline-offset:3px}.ds-braille{display:inline-flex;gap:.55rem}.ds-cell{display:grid;grid-template-rows:repeat(3,.4rem);grid-auto-flow:column;grid-auto-columns:.4rem;gap:.2rem}.ds-cell span{border-radius:50%;border:1px solid currentColor;opacity:.25}.ds-cell span.on{background:var(--violet,#7444dd);border-color:var(--violet,#7444dd);opacity:1}.ds-sig-hand{font:400 1.25rem 'Caveat',cursive;opacity:0;transition:opacity .2s}.ds-sig:hover .ds-sig-hand,.ds-sig:focus .ds-sig-hand{opacity:1}"
+      "html": "<div class=\"ds-sig\" role=\"img\" aria-label=\"Signed Kristi, in braille\"><span class=\"ds-braille\" aria-hidden=\"true\"><span class=\"ds-cell\"><span class=\"on\"></span><span></span><span class=\"on\"></span><span></span><span></span><span></span></span><span class=\"ds-cell\"><span class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span></span><span class=\"on\"></span><span></span></span><span class=\"ds-cell\"><span></span><span class=\"on\"></span><span></span><span class=\"on\"></span><span></span><span></span></span><span class=\"ds-cell\"><span></span><span class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span></span><span></span></span><span class=\"ds-cell\"><span></span><span class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span></span></span><span class=\"ds-cell\"><span></span><span class=\"on\"></span><span></span><span class=\"on\"></span><span></span><span></span></span></span><span class=\"ds-sig-hand\" aria-hidden=\"true\">that's \"kristi\" in braille ✨</span></div>",
+      "css": ".ds-sig{display:inline-flex;flex-direction:column;align-items:center;gap:.4rem;color:var(--soft,#545a72)}.ds-braille{display:inline-flex;gap:.55rem}.ds-cell{display:grid;grid-template-rows:repeat(3,.4rem);grid-auto-flow:column;grid-auto-columns:.4rem;gap:.2rem}.ds-cell span{border-radius:50%;border:1px solid currentColor;opacity:.25}.ds-cell span.on{background:var(--violet,#7444dd);border-color:var(--violet,#7444dd);opacity:1}.ds-sig-hand{font:400 1.25rem 'Caveat',cursive;opacity:0;transition:opacity .2s}.ds-sig:hover .ds-sig-hand{opacity:1}@media (hover:none){.ds-sig-hand{opacity:1}}"
     }
   ],
   "narrative": {
@@ -503,7 +503,7 @@
       },
       {
         "name": "The Sticky Notes Stay Paper Rule",
-        "body": "Sticky notes keep their pastel fill and Night Ink text in the chalkboard theme. They are real paper stuck on a board, and they are never inverted.",
+        "body": "Sticky notes and polaroids keep their pastel or white fill and Night Ink text in the chalkboard theme. They are real paper stuck on a board, and they are never inverted. Their inks come from the theme-fixed `--paper-*` custom properties, never from the theme-switching ones.",
         "section": "colors"
       },
       {
@@ -513,7 +513,7 @@
       },
       {
         "name": "The Seasoning Rule",
-        "body": "Caveat never sets a sentence the visitor must read to understand the page. Handwriting is capped at about six words per instance, and at most one free-floating scribble per viewport. Everything essential is set in Atkinson.",
+        "body": "Caveat never sets a sentence the visitor must read to understand the page. The one exception is the margin scribble, which carries availability; it stays short, high-contrast and readable by screen readers. Handwriting is capped at about six words per instance, and at most one free-floating scribble per viewport. Everything essential is set in Atkinson.",
         "section": "typography"
       },
       {
@@ -538,12 +538,13 @@
       "**Do** keep Ink Violet as the only action colour. Violet pills are reserved for the page's one main action (the footer on Home; the hero and footer on Work with me).",
       "**Do** set all essential reading in Atkinson Hyperlegible at 1rem or larger, with body text at 1.125rem and line height 1.6.",
       "**Do** keep the global 3px Ink Violet focus ring, the skip link and reduced-motion handling. When reduced motion is requested, all animation and transitions stop.",
-      "**Do** close every page with the braille signature."
+      "**Do** close every page with the braille signature.",
+      "**Do** put company names, roles and metrics in Atkinson at full ink, never in Pencil Grey."
     ],
     "donts": [
       "**Don't** add corporate or SaaS polish: gradient heroes, glassmorphism, stock \"tech\" illustration or generic dark dashboards.",
       "**Don't** use a headshot or personal photography. Imagery is limited to product screenshots inside polaroids.",
-      "**Don't** set paragraphs, CTAs or essential facts in Caveat, or set Caveat below 1.25rem.",
+      "**Don't** set paragraphs, CTAs or essential facts in Caveat (the availability scribble is the one exception), or set Caveat below 1.25rem.",
       "**Don't** tilt ink objects, or tilt anything more than ±2° (±4° for scribbles).",
       "**Don't** invert sticky notes in the chalkboard theme. They stay pastel paper with Night Ink text.",
       "**Don't** add motion beyond the one-time wave, the polaroid hover straighten, and the 0.2–0.3s colour and opacity fades."
